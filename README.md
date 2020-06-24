@@ -1,6 +1,6 @@
 # cic2020interns_wk2 - Implementing COVID-19 API
-## Node.js Mini-Challenge - Rest API - 
-https://api.covid19api.com/summary
+## Node.js Mini-Challenge
+https://api.covid19api.com/
 
 ## Steps
 1. Create new repository from https://github.ibm.com/Jamie-Scott-Richardson/cic2020interns_wk2.git (Same instructions from Week 1)
@@ -20,6 +20,8 @@ https://api.covid19api.com/summary
 You will be required to clone a new copy of your master branch to your local and start your Node.js service.
 
 ## Deliverables
+Use: https://api.covid19api.com/summary
+
 ### 1. API 1 - Top 10 countries with highest total recovered cases
 The API should be accessible via the following endpoint: **GET http://:::8081/totalrecovered**
 
@@ -111,4 +113,5 @@ Example Response:
 The **/snippets** directory contains useful examples.
 
 ## Links
+- https://api.covid19api.com/summary
 - https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request
