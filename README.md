@@ -12,7 +12,8 @@ https://api.covid19api.com/summary
 - Add API 4 to the feature branch
 - Invoke/test APIs from Postman to ensure functionality
 - Commit and push change to your feature branch
-- Create a pull request in GitHub to update your master branch with your feature branch changes
+- Create a pull request in GitHub merging your feature branch changes into your master branch
+-- link
 
 ## Deliverables
 ### 1. API 1 - Top 10 countries with highest total recovered cases
