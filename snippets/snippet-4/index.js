@@ -9,6 +9,7 @@ const fs = require('fs');
 
 const uri = 'covid-19.by.state.json';
 
+//default endpoint serving all output
 app.get('/', function(req, res) {  
     const json = fs.readFileSync(util.format('./%s', uri));
     const output = JSON.parse(json);
@@ -18,6 +19,7 @@ app.get('/', function(req, res) {
     res.send(output);
 });
  
+//endpoint serving 'as of date'
 app.get('/asofdate', function(req, res) {  
     const json = fs.readFileSync(util.format('./%s', uri));
     const output = JSON.parse(json);
@@ -25,6 +27,7 @@ app.get('/asofdate', function(req, res) {
     res.send(asOfDate);
 });
 
+//endpoint serving 'summary'
 app.get('/summary', function(req, res) {  
     const json = fs.readFileSync(util.format('./%s', uri));
     const output = JSON.parse(json);
@@ -32,6 +35,7 @@ app.get('/summary', function(req, res) {
     res.send(summary);
 });
 
+//endpoint serving 'detail'
 app.get('/detail', function(req, res) {  
     const json = fs.readFileSync(util.format('./%s', uri));
     const output = JSON.parse(json);

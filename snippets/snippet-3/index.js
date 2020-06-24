@@ -18,12 +18,14 @@ app.get('/', function(req, res) {
     
     let objects = [];
 
+    //iterating json response, creating new instance, and adding to array
     for(let item of detail){
         const object = new Detail();
         Object.assign(object, item);
         objects.push(object);
     }
 
+    //sorting array by property - Hint: if '>' is descending then ....
     detail.sort((a, b) => (a.avgCasesPerDay > b.avgCasesPerDay) ? 1 : -1)
     
     res.send(objects);
