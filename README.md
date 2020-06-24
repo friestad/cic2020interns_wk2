@@ -11,7 +11,7 @@ https://api.covid19api.com/
 6. Create a new branch name **feature_api_4** from your master branch
 7. Add API #4 to your new feature branch
 8. Invoke/test all 4 APIs from Postman to ensure functionality
-9. Commit and push your change to your feature branch
+9. Commit and push your changes to your feature branch
 10. Create a pull request, in GitHub, merging your feature branch's changes into your master branch
 
 ![alt text](https://media.github.ibm.com/user/203313/files/fcbbc300-b5f5-11ea-9d3e-f5aa66402e51)

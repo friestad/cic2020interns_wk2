@@ -28,7 +28,7 @@ app.get('/', function(req, res) {
     //sorting array by property - Hint: if '>' is descending then ....
     detail.sort((a, b) => (a.avgCasesPerDay > b.avgCasesPerDay) ? 1 : -1)
     
-    res.send(objects);
+    res.send(detail);
 });
  
 const server = app.listen(8081, function () {
