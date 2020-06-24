@@ -3,17 +3,17 @@
 https://api.covid19api.com/summary
 
 ## Steps
-- Create new repository from https://github.ibm.com/Jamie-Scott-Richardson/cic2020interns_wk2.git (Same instructions from Week 1)
-- Add your certificate of completion for Serverless Framework Bootcamp: Node.js, AWS & Microservices to the /certs directory
-- Create new Node.js application exposing APIs 1, 2, 3 and add to /src directory
-- Invoke/test APIs from Postman to ensure functionality
-- Commit and push change to your master branch
-- Create a new branch name feature_api_4 from the master branch
-- Add API 4 to the feature branch
-- Invoke/test APIs from Postman to ensure functionality
-- Commit and push change to your feature branch
-- Create a pull request in GitHub merging your feature branch changes into your master branch
--- link
+1. Create new repository from https://github.ibm.com/Jamie-Scott-Richardson/cic2020interns_wk2.git (Same instructions from Week 1)
+2. Add your certificate of completion for Serverless Framework Bootcamp: Node.js, AWS & Microservices to the /certs directory
+3. Create new Node.js application exposing APIs 1, 2, 3 and add to /src directory
+4. Invoke/test APIs from Postman to ensure functionality
+5. Commit and push change to your master branch
+6. Create a new branch name feature_api_4 from the master branch
+7. Add API 4 to the feature branch
+8. Invoke/test APIs from Postman to ensure functionality
+9. Commit and push change to your feature branch
+10. Create a pull request in GitHub merging your feature branch changes into your master branch
+- link
 
 ## Deliverables
 ### 1. API 1 - Top 10 countries with highest total recovered cases
