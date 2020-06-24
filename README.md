@@ -14,6 +14,8 @@ https://api.covid19api.com/summary
 9. Commit and push your change to your feature branch
 10. Create a pull request, in GitHub, merging your feature branch's changes into your master branch
 
+![alt text](https://media.github.ibm.com/user/203313/files/fcbbc300-b5f5-11ea-9d3e-f5aa66402e51)
+
 ## Deliverables
 ### 1. API 1 - Top 10 countries with highest total recovered cases
 The API should be accessible via the following endpoint: **GET /totalrecovered**
