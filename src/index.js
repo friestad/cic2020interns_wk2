@@ -36,7 +36,7 @@ app.get('/totalrecovered', function (req, res) {
         });
 
         console.log(countries);
-        res.json(ordered);
+        res.send(ordered);
     });
 });
 
@@ -64,7 +64,7 @@ app.get('/newconfirmed', function(req, res) {
             };
         });
    
-        res.json(ordered);
+        res.send(ordered);
     });
 });
 
