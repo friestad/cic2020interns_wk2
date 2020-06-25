@@ -8,7 +8,9 @@ const util = require('util');
 const uri = 'https://api.covid19api.com/summary';
 
 app.get('/', function(req, res) {  
-    req.pipe(request(util.format('%s', uri))).pipe(res);
+    const to = request(util.format('%s', uri));
+    req.pipe(to).pipe(res);
+    
 });
  
 const server = app.listen(8081, function () {
