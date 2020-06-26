@@ -3,8 +3,7 @@ const express = require('express');
 const app = express();
 const request = require('request');
 const util = require('util');
-const Global = require('./Global');
-const Countries = require('./Countries');
+
 
 
 const uri = 'https://api.covid19api.com/summary';
@@ -35,7 +34,6 @@ app.get('/totalrecovered', function (req, res) {
             };
         });
 
-        console.log(countries);
         res.send(ordered);
     });
 });
@@ -87,7 +85,7 @@ app.get('/differenceconfirmed', function(req, res) {
         const least = countries[0];
         const most = countries[countries.length - 1];
         const percent = (most.TotalConfirmed - least.TotalConfirmed)/most.TotalConfirmed;
-        console.log(most.Country);
+        
         res.json({
             countryWithHighest: most.Country,
             countryWithLowest: least.Country,
@@ -123,7 +121,7 @@ app.get('/percentageconfirmed', function(req, res) {
     }); 
    
 });
-const server = app.listen(8082, function() {
+const server = app.listen(8081, function() {
     const host = server.address().address;
     const port = server.address().port;
 
