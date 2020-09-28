@@ -1,3 +1,7 @@
+# 
+
+# Directions I was given are below
+# =============================================
 # cic2020interns_wk2 - Implementing COVID-19 API
 ## Node.js Mini-Challenge
 https://api.covid19api.com/
